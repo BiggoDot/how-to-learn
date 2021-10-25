@@ -304,8 +304,7 @@
 .footer {
   background-color: #1f1f1f;
   display: flex;
-  justify-content: center;
-}
+  }
 
 .footer__column {
   min-height: 350px;
@@ -314,8 +313,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   color: white;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin: 60px auto 40px;
 }
 
 .footer__column_content_copyright {
@@ -329,6 +327,7 @@
   color: white;
   width: 183px;
   height: 35px;
+  margin: 0;
 }
 
 .footer__author {
@@ -351,10 +350,12 @@
 .footer__column-heading {
   list-style: none;
   margin: 0;
+  color: white;
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+
 }
 
 .footer__column-links {
@@ -364,7 +365,7 @@
 
 .footer__column-link {
   text-decoration: none;
-  color: inherit;
+  color: white;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -375,4 +376,5 @@
   margin-right: 10px;
   width: 16px;
   height: 16px;
+
 }
